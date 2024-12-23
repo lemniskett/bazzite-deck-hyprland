@@ -5,6 +5,7 @@ set -ouex pipefail
 RELEASE="$(rpm -E %fedora)"
 
 dnf5 install -y --setopt=install_weak_deps=False \
+    xdg-desktop-portal-hyprland \
     hyprland \
     hyprpaper \
     swayidle \
@@ -16,6 +17,5 @@ dnf5 install -y --setopt=install_weak_deps=False \
     grim \
     slurp \
     calcurse \
-    fastfetch \
     stow \
     brightnessctl
