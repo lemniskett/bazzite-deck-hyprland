@@ -20,4 +20,5 @@ dnf5 install -y --setopt=install_weak_deps=False \
     stow \
     brightnessctl \
     seahorse \
-    NetworkManager-tui
+    NetworkManager-tui \
+    gnome-extensions-app
