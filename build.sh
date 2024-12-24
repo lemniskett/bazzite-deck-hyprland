@@ -19,6 +19,7 @@ dnf5 install -y --setopt=install_weak_deps=False \
     calcurse \
     stow \
     brightnessctl \
+    alacarte \
     seahorse \
     NetworkManager-tui \
     gnome-extensions-app \
