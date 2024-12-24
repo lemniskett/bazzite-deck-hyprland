@@ -18,4 +18,6 @@ dnf5 install -y --setopt=install_weak_deps=False \
     slurp \
     calcurse \
     stow \
-    brightnessctl
+    brightnessctl \
+    seahorse \
+    NetworkManager-tui
