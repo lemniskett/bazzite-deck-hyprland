@@ -21,4 +21,6 @@ dnf5 install -y --setopt=install_weak_deps=False \
     brightnessctl \
     seahorse \
     NetworkManager-tui \
-    gnome-extensions-app
+    gnome-extensions-app \
+    papirus-icon-theme \
+    adw-gtk3-theme
